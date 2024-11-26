@@ -1,0 +1,164 @@
+.style{
+    background-color: #f0f0f0;
+    h1{
+        text-align: center;
+        font-size: 30px;
+        padding: 70px;
+        @media (max-width:550px) {
+           width: 250px;
+           padding: 20px 90px;
+        }
+    }
+    width: 1200px;
+    border: none;
+    border-radius: 40px;
+    @media (max-width:550px) {
+        width: 450px;
+    }
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.first_card{
+    img{
+        padding: 0 15px;
+    }
+    @media (max-width:550px) {
+        display: none;
+    }
+
+}
+.fore{
+    display: none;
+    @media (max-width:550px) {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.second_card{
+    img{
+        padding: 0 15px;
+    }
+    @media (max-width:550px) {
+        display: none;
+    }
+}
+.head{
+    h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #eae8e8;
+    border-radius: 20px;
+    h3{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .star{
+        width: 150px;
+    }
+    @media(max-width:550px){
+        min-width: 430px;
+        border: none;
+    }
+}
+.otziv{
+    display: flex;
+    gap: 20px;
+}
+.medias{
+    border: none;
+    @media(max-width: 550px){
+        display: none;
+        border: none;
+    }
+}
+.stay{
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 40px auto;
+    h1{
+        font-size: 40px;
+        max-width: 530px;
+        color: white;
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 10px;
+        input{
+            width: 335px;
+            padding: 10px 30px;
+            border-radius: 20px;
+            background-color: white;
+            background-image: url(./pochta.png);
+            background-repeat: no-repeat;
+            background-position: left;
+            color: black;
+        }
+        button{
+            width: 400px;
+            padding: 10px 30px;
+            border-radius: 20px;
+            background-color: white;
+            color: black;
+            
+        }
+        
+    }
+    @media(max-width: 550px){
+        display: flex;
+        flex-direction: column;
+        width: 430px;
+        justify-content: center;
+        
+    }
+}
+.head{
+    display: flex;
+    align-items: center;
+
+    h2{
+        font-size: 50px;
+    }
+    @media(max-width:500px){
+        width:  450px;
+    }
+}
+.arrows{
+    
+    img{
+        width: 30px;
+        height: 30px;
+        padding-bottom: 20px;
+    }
+    @media (max-width:550px) {
+        display: flex;
+    }
+}

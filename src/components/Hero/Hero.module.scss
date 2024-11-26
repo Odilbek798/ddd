@@ -1,0 +1,96 @@
+.hero{
+    background-color: #F2F0F1;
+    padding-top: 30px        ;
+}
+
+.main_hero{
+    display: flex;
+    gap: 80px;
+    @media (max-width:550px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.title{
+    max-width: 500px;
+    .shift{
+        font-size: 13px;
+        padding-bottom: 20px ;
+    }
+
+    h1{
+        font-size: 50px;
+        font-weight: 700;
+        padding: 20px 0;
+        
+    }
+    button{
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px 30px;
+        @media(max-width:550px){
+            width: 100%;
+        }
+    }
+    @media(max-width:550px){
+        aspect-ratio: 1;
+        padding-right: 10px;
+    }
+}
+.sale{
+    padding-top: 65px;
+    display: flex;
+    gap: 30px;
+    h2{
+        font-size: 30px;
+    }
+    p{
+        padding-top: 5px;
+        font-size: 10px;
+        color: rgb(161, 161, 161);
+    }
+}
+.line{
+    width: 5px;
+    height: 65px;
+    background-color: rgb(185, 184, 184);
+}
+
+.big_img{
+    img{
+        width: 500px;
+        @media (max-width:550px) {
+            width: 100%;
+            
+        }
+    }
+}
+.last{
+    background-color: black;
+    width: 1330px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    img{
+        @media (max-width:550px) {
+             width: 120px;
+             height: 100%;
+         }
+    }
+    .zara{
+        @media (max-width:550px) {
+            width: 70px;
+            height: 70%;
+        }
+    }
+    @media (max-width:550px) {
+       width: 450px;  
+       flex-wrap: wrap;
+       gap: 20px;
+       padding: 10px;
+       justify-content: center;
+    }
+    
+}
